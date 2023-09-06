@@ -1,5 +1,6 @@
 body {
   color: black;
+  font-size: 100px;
 }
 
 .header {
@@ -8,7 +9,7 @@ body {
 }
 .header .exg {
   margin: 0;
-  font-size: 60px;
+  font-size: 3rem;
 }
 
 .footer {
@@ -18,12 +19,13 @@ body {
   text-decoration: none;
   color: black;
   width: 100%;
-  font-size: 10px;
-  font-weight: 200;
-  line-height: 0.2em;
+  font-size: 0.1rem;
+  font-weight: 100;
+  line-height: 1;
   position: fixed;
   bottom: 0;
   z-index: 2;
+  margin-bottom: 1%;
 }
 
 .wrapper {
@@ -32,7 +34,7 @@ body {
 }
 
 .hero {
-  width: 100;
+  width: 100%;
   margin: 0 auto;
   text-align: center;
 }
@@ -57,7 +59,7 @@ video {
 
 .thegreatest_text, .sanstitle001_text, .givenchyss23_text, .nicotine_text, .lampoon_text, .dapperdan_text {
   text-align: left;
-  font-size: 1px;
+  font-size: 0.1rem;
   line-height: 1, 1;
   letter-spacing: 0.8em;
   position: absolute;

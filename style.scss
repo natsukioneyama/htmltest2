@@ -2,7 +2,9 @@ $cBlack: black;
 
 body {
   color: $cBlack;
-  font-size: 100px;
+  font-size: 0.1vw !important;
+  font-size: 10px;
+  
   font-family: 'Roboto', sans-serif;
 } 
 
@@ -14,7 +16,6 @@ body {
     text-decoration: none;
     color: $cBlack;
     width: 100%;
-    font-size: 0.1rem;
     font-weight: 600;
     line-height: 1;
     position: fixed;
@@ -59,7 +60,6 @@ video {
 
 .thegreatest_text,.sanstitle001_text,.givenchyss23_text,.nicotine_text,.lampoon_text,.dapperdan_text {
   text-align: left;
-  font-size: 0.1rem;
   font-weight: 600;
   line-height: 1,1;
   letter-spacing: 0.8em;
@@ -102,7 +102,6 @@ body {
 
 .thegreatest_text,.sanstitle001_text,.givenchyss23_text,.nicotine_text,.lampoon_text,.dapperdan_text {
   text-align: left;
-  font-size: 0.1rem;
   font-weight: 600;
   line-height: 1,1;
   letter-spacing: 0.8em;

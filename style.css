@@ -1,36 +1,26 @@
 body {
   color: black;
   font-size: 100px;
+  font-family: "Roboto", sans-serif;
 }
 
-.header {
-  width: 100%;
-  z-index: 3;
-}
-.header .exg {
-  margin: 0;
-  font-size: 3rem;
-}
-
-.footer {
+.info {
   width: 100%;
 }
-.footer .sdx {
+.info .sdx {
   text-decoration: none;
   color: black;
   width: 100%;
   font-size: 0.1rem;
-  font-weight: 100;
+  font-weight: 600;
   line-height: 1;
   position: fixed;
-  bottom: 0;
   z-index: 2;
-  margin-bottom: 1%;
+  margin-bottom: 2%;
 }
 
 .wrapper {
   width: 100%;
-  margin-top: 100px;
 }
 
 .hero {
@@ -60,6 +50,7 @@ video {
 .thegreatest_text, .sanstitle001_text, .givenchyss23_text, .nicotine_text, .lampoon_text, .dapperdan_text {
   text-align: left;
   font-size: 0.1rem;
+  font-weight: 600;
   line-height: 1, 1;
   letter-spacing: 0.8em;
   position: absolute;
@@ -72,27 +63,31 @@ video {
   body {
     cursor: url(img/item/cursor.png), auto;
   }
-  .header {
-    font-size: 80px;
-    width: 100%;
-    position: absolute;
-    position: fixed;
-    top: 30%;
-  }
-  .header .exg {
-    max-width: 700px;
-    top: 30%;
-    left: 10%;
-    margin: 0 auto;
-  }
-  .header :hover {
-    opacity: 0;
-  }
   .wrapper {
     margin-top: 0;
     position: relative;
   }
   .hero {
     max-width: 500px;
+  }
+  .image_card1, .image_card2, .image_card3, .image_card4, .image_card5, .image_card6 {
+    position: relative;
+  }
+  .image_card1 .thegreatest, .image_card1 .sanstitle001, .image_card1 .givenchyss23, .image_card1 .nicotine, .image_card1 .lampoon, .image_card1 .dapperdan, .image_card2 .thegreatest, .image_card2 .sanstitle001, .image_card2 .givenchyss23, .image_card2 .nicotine, .image_card2 .lampoon, .image_card2 .dapperdan, .image_card3 .thegreatest, .image_card3 .sanstitle001, .image_card3 .givenchyss23, .image_card3 .nicotine, .image_card3 .lampoon, .image_card3 .dapperdan, .image_card4 .thegreatest, .image_card4 .sanstitle001, .image_card4 .givenchyss23, .image_card4 .nicotine, .image_card4 .lampoon, .image_card4 .dapperdan, .image_card5 .thegreatest, .image_card5 .sanstitle001, .image_card5 .givenchyss23, .image_card5 .nicotine, .image_card5 .lampoon, .image_card5 .dapperdan, .image_card6 .thegreatest, .image_card6 .sanstitle001, .image_card6 .givenchyss23, .image_card6 .nicotine, .image_card6 .lampoon, .image_card6 .dapperdan {
+    position: relative;
+  }
+  .image_card1 .thegreatest:hover, .image_card1 .sanstitle001:hover, .image_card1 .givenchyss23:hover, .image_card1 .nicotine:hover, .image_card1 .lampoon:hover, .image_card1 .dapperdan:hover, .image_card2 .thegreatest:hover, .image_card2 .sanstitle001:hover, .image_card2 .givenchyss23:hover, .image_card2 .nicotine:hover, .image_card2 .lampoon:hover, .image_card2 .dapperdan:hover, .image_card3 .thegreatest:hover, .image_card3 .sanstitle001:hover, .image_card3 .givenchyss23:hover, .image_card3 .nicotine:hover, .image_card3 .lampoon:hover, .image_card3 .dapperdan:hover, .image_card4 .thegreatest:hover, .image_card4 .sanstitle001:hover, .image_card4 .givenchyss23:hover, .image_card4 .nicotine:hover, .image_card4 .lampoon:hover, .image_card4 .dapperdan:hover, .image_card5 .thegreatest:hover, .image_card5 .sanstitle001:hover, .image_card5 .givenchyss23:hover, .image_card5 .nicotine:hover, .image_card5 .lampoon:hover, .image_card5 .dapperdan:hover, .image_card6 .thegreatest:hover, .image_card6 .sanstitle001:hover, .image_card6 .givenchyss23:hover, .image_card6 .nicotine:hover, .image_card6 .lampoon:hover, .image_card6 .dapperdan:hover {
+    opacity: 0;
+  }
+  .thegreatest_text, .sanstitle001_text, .givenchyss23_text, .nicotine_text, .lampoon_text, .dapperdan_text {
+    text-align: left;
+    font-size: 0.1rem;
+    font-weight: 600;
+    line-height: 1, 1;
+    letter-spacing: 0.8em;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
   }
 }/*# sourceMappingURL=style.css.map */

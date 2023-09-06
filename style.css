@@ -1,7 +1,6 @@
 body {
   color: black;
-  font-size: 0.1vw !important;
-  font-size: 10px;
+  font-size: 8px;
   font-family: "Roboto", sans-serif;
 }
 
@@ -12,8 +11,8 @@ body {
   text-decoration: none;
   color: black;
   width: 100%;
-  font-weight: 600;
-  line-height: 1;
+  font-weight: 100;
+  line-height: 0.5;
   position: fixed;
   z-index: 2;
   margin-bottom: 2%;
@@ -43,15 +42,12 @@ video {
 .image_card1 .thegreatest, .image_card1 .sanstitle001, .image_card1 .givenchyss23, .image_card1 .nicotine, .image_card1 .lampoon, .image_card1 .dapperdan, .image_card2 .thegreatest, .image_card2 .sanstitle001, .image_card2 .givenchyss23, .image_card2 .nicotine, .image_card2 .lampoon, .image_card2 .dapperdan, .image_card3 .thegreatest, .image_card3 .sanstitle001, .image_card3 .givenchyss23, .image_card3 .nicotine, .image_card3 .lampoon, .image_card3 .dapperdan, .image_card4 .thegreatest, .image_card4 .sanstitle001, .image_card4 .givenchyss23, .image_card4 .nicotine, .image_card4 .lampoon, .image_card4 .dapperdan, .image_card5 .thegreatest, .image_card5 .sanstitle001, .image_card5 .givenchyss23, .image_card5 .nicotine, .image_card5 .lampoon, .image_card5 .dapperdan, .image_card6 .thegreatest, .image_card6 .sanstitle001, .image_card6 .givenchyss23, .image_card6 .nicotine, .image_card6 .lampoon, .image_card6 .dapperdan {
   position: relative;
 }
-.image_card1 .thegreatest:hover, .image_card1 .sanstitle001:hover, .image_card1 .givenchyss23:hover, .image_card1 .nicotine:hover, .image_card1 .lampoon:hover, .image_card1 .dapperdan:hover, .image_card2 .thegreatest:hover, .image_card2 .sanstitle001:hover, .image_card2 .givenchyss23:hover, .image_card2 .nicotine:hover, .image_card2 .lampoon:hover, .image_card2 .dapperdan:hover, .image_card3 .thegreatest:hover, .image_card3 .sanstitle001:hover, .image_card3 .givenchyss23:hover, .image_card3 .nicotine:hover, .image_card3 .lampoon:hover, .image_card3 .dapperdan:hover, .image_card4 .thegreatest:hover, .image_card4 .sanstitle001:hover, .image_card4 .givenchyss23:hover, .image_card4 .nicotine:hover, .image_card4 .lampoon:hover, .image_card4 .dapperdan:hover, .image_card5 .thegreatest:hover, .image_card5 .sanstitle001:hover, .image_card5 .givenchyss23:hover, .image_card5 .nicotine:hover, .image_card5 .lampoon:hover, .image_card5 .dapperdan:hover, .image_card6 .thegreatest:hover, .image_card6 .sanstitle001:hover, .image_card6 .givenchyss23:hover, .image_card6 .nicotine:hover, .image_card6 .lampoon:hover, .image_card6 .dapperdan:hover {
-  opacity: 0;
-}
 
 .thegreatest_text, .sanstitle001_text, .givenchyss23_text, .nicotine_text, .lampoon_text, .dapperdan_text {
   text-align: left;
-  font-weight: 600;
-  line-height: 1, 1;
-  letter-spacing: 0.8em;
+  font-weight: 100;
+  line-height: 0.5;
+  letter-spacing: 0.3em;
   position: absolute;
   top: 0;
   right: 0;
@@ -80,9 +76,10 @@ video {
   }
   .thegreatest_text, .sanstitle001_text, .givenchyss23_text, .nicotine_text, .lampoon_text, .dapperdan_text {
     text-align: left;
-    font-weight: 600;
-    line-height: 1, 1;
-    letter-spacing: 0.8em;
+    font-weight: 100;
+    font-size: 1em;
+    line-height: 0.5;
+    letter-spacing: 0.3em;
     position: absolute;
     top: 0;
     right: 0;

@@ -2,8 +2,7 @@ $cBlack: black;
 
 body {
   color: $cBlack;
-  font-size: 0.1vw !important;
-  font-size: 10px;
+  font-size: 8px;
   
   font-family: 'Roboto', sans-serif;
 } 
@@ -16,8 +15,8 @@ body {
     text-decoration: none;
     color: $cBlack;
     width: 100%;
-    font-weight: 600;
-    line-height: 1;
+    font-weight: 100;
+    line-height: 0.5;
     position: fixed;
     // bottom: 0;
     z-index: 2;
@@ -52,17 +51,17 @@ video {
   .thegreatest,.sanstitle001,.givenchyss23,.nicotine,.lampoon,.dapperdan {
     position: relative;
   
-        &:hover {
-          opacity: 0;
-        }
+        // &:hover {
+        //   opacity: 0;
+        // }
   }
 }
 
 .thegreatest_text,.sanstitle001_text,.givenchyss23_text,.nicotine_text,.lampoon_text,.dapperdan_text {
   text-align: left;
-  font-weight: 600;
-  line-height: 1,1;
-  letter-spacing: 0.8em;
+  font-weight: 100;
+  line-height: 0.5;
+  letter-spacing: 0.3em;
   position: absolute;
   top: 0;
   right: 0;
@@ -102,9 +101,10 @@ body {
 
 .thegreatest_text,.sanstitle001_text,.givenchyss23_text,.nicotine_text,.lampoon_text,.dapperdan_text {
   text-align: left;
-  font-weight: 600;
-  line-height: 1,1;
-  letter-spacing: 0.8em;
+  font-weight: 100;
+  font-size: 1em;
+  line-height: 0.5;
+  letter-spacing: 0.3em;
   position: absolute;
   top: 0;
   right: 0;
